@@ -1,0 +1,43 @@
+# ===== SECRETS — never commit these =====
+.env
+.env.*
+*.pem
+*.key
+credentials
+aws.json
+secrets.*
+*_rsa
+*.ppk
+
+# AWS
+.aws/
+
+# ===== Terraform =====
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+*.tfvars          # often holds secrets; commit *.tfvars.example instead
+!*.tfvars.example
+.terraform.lock.hcl
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# ===== Packaging / Lambda zips =====
+*.zip
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
