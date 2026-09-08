@@ -12,8 +12,8 @@ Full plan and rationale in [ROADMAP.md](ROADMAP.md).
 | Phase | Focus | Status |
 |---|---|---|
 | 0 | Account setup & safety | ✅ done |
-| 1 | Core primitives — IAM, S3, EC2, VPC, CloudWatch | 🔄 in progress |
-| 2 | Serverless & APIs — Lambda, API Gateway, DynamoDB, RDS, SQS/SNS, Terraform | ⬜ |
+| 1 | Core primitives — IAM, S3, EC2, VPC, CloudWatch | ✅ done |
+| 2 | Serverless & APIs — Lambda, API Gateway, DynamoDB, RDS, SQS/SNS, Terraform | 🔄 next |
 | 3 | Containers — Docker, ECR, ECS Fargate | ⬜ |
 | 4 | ML/AI — SageMaker, Bedrock, GPU inference | ⬜ |
 | 🏆 | Capstone — end-to-end ML inference platform | ⬜ |
